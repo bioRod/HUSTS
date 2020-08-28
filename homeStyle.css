@@ -9,16 +9,13 @@ body {
     color:black;
 }
 #mainNavbar .navbar-brand {
-    color: #EA1C2C;
+    color: black;
     font-size: 1.5rem;
     margin-left: 1.5rem;
 }
 
-#headingGroup span {
-    color: #EA1C2C;
-}
 
-.navbar-toggle, .navbar-toggler-icon{
+.navbar-toggler .navbar-toggler-icon{
     color: black;
 }
 
@@ -30,10 +27,9 @@ body {
 
 #mainNavbar {
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 500;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.1) ;
-    height: 4rem;
-    
+
 }
 
 #mainNavbar .nav-link {
@@ -97,3 +93,4 @@ body {
     display:inline-block;
     float: none;
 }
+

@@ -23,40 +23,33 @@
 <body>
     <!-- Navbar start -->
 
-	<nav id="mainNavbar"  class="navbar navbar-expand-md navbar-light blurb py-1.2 fixed-top">
-        <a class="navbar-brand" href="#">
-            <img class="d-inline-block align-top" src="imgs/hustslogo.png" width="80" height="50" alt="">
-        </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
+	<nav class="navbar navbar-expand-lg navbar-light bg-ligh primary-color" id="mainNavbar">
+        <a class="navbar-brand order-1 mr-auto order-lg-0" href="#"><img src="imgs/hustslogo.png" width="80px" height="50px%" alt=""></a>
+
+        <button class="btn btn-sm align-middle btn-black lg-mr-3 fa fa-user order-2 order-lg-2" type="button"></button>
+        <button class="btn btn-sm align-middle btn-black ml-4 fa fa-shopping-cart order-3 order-lg-3 " type="button"></button>
+        
+        <button class="navbar-toggler mr-auto order-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-  
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav mx-auto">
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-4">
                 <li class="nav-item active">
-                <a class="nav-link ml-4 mr-2" href="#">CATALOG</a>
+                    <a class="nav-link" href="#"> Catalog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-2" href="#">COLLECTIONS</a>
+                    <a class="nav-link" href="#">Products</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link mr-2" href="#">BLOG</a>
+                    <a class="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item ">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
                 </li>
             </ul>
         </div>
-            <ul class="navbar-nav">
-                <!-- Change this icons for something with a light border
-                     Also add js functionality and a number in the shopping cart to add items -->
-                <li><a href="#"><i class="fa fa-search black"></i></a>
-                </li>
-                <li><a href="#"><i class="fa fa-user px-2 mx-3 black"></i></a>
-                </li>
-                <li><a href="#"><i class="fa fa-shopping-cart mr-4 black"></i></a>
-                </li> 
-            </ul>
     </nav>
 <!-- Navbar end-->  
 
@@ -84,6 +77,11 @@
             $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         });
     });
+  </script>
+  <script>
+      $('.navbar-collapse').on('shown.bs.collapse', function () {
+        fa
+        });
   </script>
   <!-- Custom JavaScript -->
 <script src="homeScript.js"></script>
