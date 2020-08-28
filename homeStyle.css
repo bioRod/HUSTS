@@ -1,0 +1,99 @@
+/* file connected */ 
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: ffffff;
+}
+
+#mainNavbar .navbar-brand .navbar-toggle span {
+    color:black;
+}
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+.navbar-toggle, .navbar-toggler-icon{
+    color: black;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.1) ;
+    height: 4rem;
+    
+}
+
+#mainNavbar .nav-link {
+    color: black;
+    font-size: 0.8rem;
+}
+
+#mainNavbar .nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+    
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+ }
+ .blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+.black { 
+    color: black;
+    
+}
+
+.black:hover{
+    text-decoration-color: black;
+    /* make in js this hover do the border of navbar turn black under the word  */
+
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
