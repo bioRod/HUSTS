@@ -26,15 +26,16 @@ body {
 
 
 #mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 500;
-    border-bottom: 1.5px solid rgba(0, 0, 0, 0.1) ;
+    font-size: 1.7rem;
+    font-weight: 100;
+    /* border-bottom: 1.5px solid rgba(0, 0, 0, 0.1) ; */
 
 }
 
 #mainNavbar .nav-link {
     color: black;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 #mainNavbar .nav-link:hover {
@@ -94,3 +95,14 @@ body {
     float: none;
 }
 
+.alertBanner {
+    color: black;
+    background: white;
+}
+
+#noBG {
+    padding: 0%;
+    color: black;
+    background: white;
+
+}

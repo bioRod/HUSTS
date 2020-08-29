@@ -24,39 +24,47 @@
     <!-- Navbar start -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-ligh primary-color" id="mainNavbar">
-        <a class="navbar-brand order-1 mr-auto order-lg-0" href="#"><img src="imgs/hustslogo.png" width="80px" height="50px%" alt=""></a>
+        <a class="navbar-brand order-1 mr-auto order-lg-0 ml-0 ml-lg-4" href="#"><img src="imgs/hustslogo.png" width="80px" height="50px%" alt=""></a>
 
-        <button class="btn btn-sm align-middle btn-black lg-mr-3 fa fa-user order-2 order-lg-2" type="button"></button>
-        <button class="btn btn-sm align-middle btn-black ml-4 fa fa-shopping-cart order-3 order-lg-3 " type="button"></button>
+        <button class="btn btn-sm align-middle btn-black lg-mr-4 fa fa-user order-2 order-lg-2" type="button" id="noBG"></button>
+        <button class="btn btn-sm align-middle btn-black ml-4 fa fa-shopping-cart order-3 order-lg-3 mr-0 mr-lg-4" type="button" id="noBG"></button>
         
         <button class="navbar-toggler mr-auto order-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-4">
+        <div class="collapse navbar-collapse justify-content-center py-2" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-0 ml-lg-4 ">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"> Catalog</a>
+                    <a class="nav-link mx-3" href="#"> Catalog</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Products</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">About us</a>
                 </li>
             </ul>
         </div>
     </nav>
-<!-- Navbar end-->  
+<!-- Navbar end -->  
+
+<!-- Alert banned start -->
+
+<div class="alert alert-dark text-center alertBanner" role="alert">
+    Free Shipping for Purchases Over £50
+  </div>
+
+<!-- Alert banner end -->
 
 <section id="gallery">
     <div class="container py-5">
         <div class="row">
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-6 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="imgs/essentialsCollection.jpg" alt="Essentials Collection">
                     <div class="card-body">
@@ -66,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-6 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="imgs/prideCollection.jpg" alt="Pride Collection">
                     <div class="card-body">
@@ -76,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-6 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="imgs/blackColletion.jpg" alt="BLM Collection">
                     <div class="card-body">
